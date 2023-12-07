@@ -1,0 +1,25 @@
+.hero {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .header-logo {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.hero .header-link {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
