@@ -1,25 +1,100 @@
-.hero {
-    background-color: #1F2937;
-    color: white;
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.hero .header-logo {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    
+.header-hero-wrapper {
+    background-color: #1F2937 ;
 }
 
-.hero .header-link {
+.header {
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-links {
     display: flex;
-    justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
-    gap: 8px;
-    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.header-links a {
     color: white;
-
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.SNM-desc {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.hero-desc {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-size: 48px;
+    font-family: bold;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+}
+
+.logo-image {
+    height: 400px;
+    width: 600px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0;
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
