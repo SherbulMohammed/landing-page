@@ -180,15 +180,19 @@ h3 {
 }
 
 .footer-section {
-    margin: 100px;
+    background-color: #1F2937 ;
 }
 
 .footer {
-    background-color: #1F2937 ;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin: 10px;
+    font-size: 16px;
+    color: #E5E7EB;    
 }
+
+
 
 
 
