@@ -139,6 +139,57 @@ h2 {
 }
 
 
+.call-to-action-section {
+    margin: 100px;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-up-button-two {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: #E5E7EB solid;
+}
+
+.footer-section {
+    margin: 100px;
+}
+
+.footer {
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 
